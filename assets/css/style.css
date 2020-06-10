@@ -20,7 +20,7 @@
 .nav-style{
     background-color: #050001;
     font-family: 'Balsamiq Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #eccb7a;
     text-transform: uppercase;
     text-align: center;
@@ -49,6 +49,7 @@
 
 /*--------------------------------------------Text-Styling---*/
 .footer-question{
+    font-family: 'Balsamiq Sans', sans-serif;
     color: #eccb7a;
     font-size: 25px;
     text-align: center;
@@ -60,4 +61,20 @@
 }
 .footer-question:visited{
     color: #eccb7a;
+}
+.text-style{
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 16px;
+    color: #eccb7a;
+}
+h3 {
+    text-transform: uppercase;
+}
+/*-------------------------Media Queries---*/
+
+@media only screen and (max-device-width: 769px){
+    .fa-facebook-square, .fa-instagram, .fa-linkedin-square, .fa-pinterest-square{
+        font-size: 20px;
+        padding: 2px;
+    }
 }
