@@ -1,6 +1,6 @@
 /*---------------------------COLORS----*/
 
-.color-black{
+.bg-black{
     background-color: #050001;
 }
 .color-tan{
@@ -20,7 +20,7 @@
 .nav-style{
     background-color: #050001;
     font-family: 'Balsamiq Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #eccb7a;
     text-transform: uppercase;
     text-align: center;
@@ -36,4 +36,28 @@
 .nav-style a:hover{
     background-color: #eccb7a;
     color: #050001;
+}
+.fa-home, .fa-glass, .fa-question{
+    font-size: 25px;
+}
+
+/*-------------------------------------Footer Icons---*/
+.fa-facebook-square, .fa-linkedin-square, .fa-instagram, .fa-pinterest-square{
+    color: #eccb7a;
+    font-size: 25px;
+}
+
+/*--------------------------------------------Text-Styling---*/
+.footer-question{
+    color: #eccb7a;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer-question:hover{
+    color: #cc9442;
+}
+.footer-question:visited{
+    color: #eccb7a;
 }
