@@ -1,0 +1,39 @@
+/*---------------------------COLORS----*/
+
+.color-black{
+    background-color: #050001;
+}
+.color-tan{
+    background-color: #cc9442;
+}
+.color-yellow{
+    background-color: #eccb7a;
+}
+.color-grey{
+    background-color: #f0eeef;
+}
+.color-pink{
+    background-color: #e3cbc3;
+}
+
+/*--------------------------------------Nav Styling---*/
+.nav-style{
+    background-color: #050001;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 16px;
+    color: #eccb7a;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.nav-style a:link{
+    color: #eccb7a;
+}
+.nav-style a:visited{
+    color: #eccb7a;
+}
+.nav-style a:hover{
+    background-color: #eccb7a;
+    color: #050001;
+}
