@@ -15,6 +15,11 @@
 .color-pink{
     background-color: #e3cbc3;
 }
+/*------------------------------------Image Styling----*/
+.header-logp{
+    height: 120px;
+    width: 100%;
+}
 
 /*--------------------------------------Nav Styling---*/
 .nav-style{
