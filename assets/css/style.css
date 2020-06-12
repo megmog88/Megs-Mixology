@@ -122,3 +122,11 @@ h3 {
         padding: 2px;
     }
 }
+@media only screen and (max-device-width: 576px){
+    .modal-text{
+        font-size: 12px;
+    }
+    .modal-head{
+        font-size: 14px;
+    }
+}
