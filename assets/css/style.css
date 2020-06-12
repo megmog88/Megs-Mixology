@@ -1,3 +1,38 @@
+/*-----------------------------Modal----*/
+.modal-head{
+    color: #eccb7a;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', sans-serif;
+    text-align: center;
+}
+
+.modal-text{
+    color: #eccb7a;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+.modal-btn{
+    color:#050001;
+    background-color:#eccb7a;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 20px;
+}
+.modal-btn a:visited{
+    color: #050001;
+}
+.modal-btn a:link{
+    color: #050001;
+}
+.modal a:hover{
+    color: #050001;
+    text-decoration: none;
+}
+
+.brd-modal{
+    border-style: dotted;
+    border-color: #eccb7a;
+    border-radius: 10px;
+}
 /*---------------------------COLORS----*/
 
 .bg-black{
