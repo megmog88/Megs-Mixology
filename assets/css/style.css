@@ -43,22 +43,15 @@
 .bg-black{
     background-color: #050001;
 }
-.color-tan{
-    background-color: #cc9442;
-}
-.color-yellow{
-    background-color: #eccb7a;
-}
-.color-grey{
-    background-color: #f0eeef;
-}
-.color-pink{
-    background-color: #e3cbc3;
-}
 /*------------------------------------Image Styling----*/
 .header-logo{
+    height: 200px;
+}
+.equipment-img{
     height: 250px;
 }
+/*---------------------------------------li bullet formatting----*/
+li { list-style-image: url(assets/images/Glass.PNG); } 
 
 /*--------------------------------------Nav Styling---*/
 .nav-style{
@@ -108,12 +101,13 @@
 }
 .text-style{
     font-family: 'Balsamiq Sans', sans-serif;
-    font-size: 16px;
     color: #eccb7a;
 }
 h3 {
     text-transform: uppercase;
 }
+
+
 /*-------------------------Media Queries---*/
 
 @media only screen and (max-device-width: 769px){
