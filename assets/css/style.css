@@ -47,9 +47,13 @@
 .header-logo{
     height: 200px;
 }
-.equipment-img{
-    height: 250px;
+
+.card-image{
+    height: 200px;
 }
+
+
+
 /*--------------------------------------Nav Styling---*/
 .nav-style{
     background-color: #050001;
