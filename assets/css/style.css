@@ -50,9 +50,6 @@
 .equipment-img{
     height: 250px;
 }
-/*---------------------------------------li bullet formatting----*/
-li { list-style-image: url(assets/images/Glass.PNG); } 
-
 /*--------------------------------------Nav Styling---*/
 .nav-style{
     background-color: #050001;
