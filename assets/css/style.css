@@ -49,12 +49,12 @@
 }
 
 .card-image{
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
 .playing-card{
-    height: 600px;
+    height: 500px;
 }
 
 .main-negroni-img{
@@ -134,7 +134,7 @@ h3 {
   left: 0;
 }
 .card-flip, .card-back, .card-front{
-    height: 600px;
+    height: 500px;
     width: 100%;
     
 }
@@ -145,7 +145,7 @@ h3 {
 .card-back {
   transform: rotateY(180deg);
   background-color: #050001;
-  height: 600px;
+  height: 500px;
 }
 /*-------------------------Media Queries---*/
 
@@ -162,4 +162,8 @@ h3 {
     .modal-head{
         font-size: 14px;
     }
+}
+
+@media (hover: hover) {
+  a:hover { color: blue; }
 }
