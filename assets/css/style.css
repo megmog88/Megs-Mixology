@@ -50,6 +50,11 @@
 
 .card-image{
     height: 200px;
+    width: 100%;
+}
+
+.playing-card{
+    height: 500px;
 }
 
 
@@ -115,8 +120,8 @@ h3 {
 
 .flipper {
   transition: 0.8s;
-  transform-style: preserve-3d;
   position: relative;
+  transform-style: preserve-3d;
 }
 .card-front, .card-back {
   backface-visibility: hidden;
@@ -124,18 +129,19 @@ h3 {
   top: 0;
   left: 0;
 }
-.card-flip, .card-front, .card-back {
-  width: 250px;
-  height: 250px;
+.card-flip, .card-back, .card-front{
+    width: 30vw;
+    height: 50vh;
+    
 }
 .card-front {
-  z-index: 2;
   transform: rotateY(0deg);
 }
 
 .card-back {
   transform: rotateY(180deg);
   background-color: #050001;
+  height: 500px;
 }
 /*-------------------------Media Queries---*/
 
