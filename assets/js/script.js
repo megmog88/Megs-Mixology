@@ -7,7 +7,8 @@ $('.myModal').modal('show');
 });
 
 $(document).ready(function(){
-    $('.flip').click(function(){
-  $(this).find('.card').toggleClass('flipped');
+    $('.card-flip .flipper').click(function(){
+    $(this).toggleClass("flip");
 });
+
 });
